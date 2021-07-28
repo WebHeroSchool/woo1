@@ -128,7 +128,7 @@ display: none;
   z-index: 0;
   border: none;
   outline: none;
-  border-radius: 10px;
+  border-radius: 4px;
 }
 
 .main__button:before {
@@ -145,7 +145,7 @@ display: none;
   animation: glowing 20s linear infinite;
   opacity: 0;
   transition: opacity .3s ease-in-out;
-  border-radius: 10px;
+  border-radius: 4px;
 }
 
 .main__button:hover {
@@ -169,7 +169,7 @@ display: none;
   background: #0056EC;
   left: 0;
   top: 0;
-  border-radius: 10px;
+  border-radius: 4px;
 }
 
 @keyframes glowing {
@@ -471,6 +471,7 @@ display: none;
    margin-bottom: 40px;
    font-size: 50px;
    line-height: 150%;
+   padding-right: 0;
   }
          
   .main__subtitle {
